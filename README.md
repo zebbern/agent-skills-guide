@@ -16,7 +16,7 @@
 
 <kbd>
   
-<h4 align="left">
+<h3 align="left">
 
 | Table of Contents | |
 |------|:-:|
@@ -32,7 +32,7 @@
 | [Testing & Iteration](#testing--iteration) | ✓ |
 | [Checklist](#checklist) | ✓ |
 
-</h4>
+</h3>
 
 <kbd> *Claude Code Via Discord Guide [Here!](https://github.com/zebbern/claude-code-discord)* </kbd>
 
