@@ -1,3 +1,5 @@
+<img align="right" src="https://hits.sh/github.com/zebbern/agent-skills-guide.svg?label=readers&color=lightgreen">
+
 <div align="center">
   
 <table><td>
