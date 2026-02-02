@@ -117,7 +117,7 @@ allowed-tools: Bash(python:*) Read
 
 ### Name Field Rules
 
-✅ **Valid names:**
+ **Valid names:**
 
 ```
 pdf-processing
@@ -126,7 +126,7 @@ code-review
 my-skill-v2
 ```
 
-❌ **Invalid names:**
+Avoid **Invalid names:**
 
 ```
 PDF-Processing     # uppercase not allowed
@@ -345,8 +345,8 @@ python scripts/migrate.py --verify --backup
 
 Choose one term and stick with it:
 
-- ✅ Always "API endpoint" (not mixing "URL", "route", "path")
-- ✅ Always "extract" (not mixing "pull", "get", "retrieve")
+-  Always "API endpoint" (not mixing "URL", "route", "path")
+-  Always "extract" (not mixing "pull", "get", "retrieve")
 
 ---
 
@@ -448,7 +448,7 @@ SKILL.md points to the right file based on context.
 
 ## Anti-Patterns to Avoid
 
-### ❌ Windows-Style Paths
+### Avoid Windows-Style Paths
 
 ```
 # Bad
@@ -458,7 +458,7 @@ scripts\helper.py
 scripts/helper.py
 ```
 
-### ❌ Too Many Options
+### Avoid Too Many Options
 
 ```
 # Bad
@@ -469,7 +469,7 @@ scripts/helper.py
 For scanned PDFs requiring OCR, use pdf2image instead."
 ```
 
-### ❌ Time-Sensitive Information
+### Avoid Time-Sensitive Information
 
 ```
 # Bad
@@ -486,7 +486,7 @@ Use the v2 API endpoint.
 </details>
 ```
 
-### ❌ Deeply Nested References
+### Avoid Deeply Nested References
 
 ```
 # Bad
@@ -498,7 +498,7 @@ SKILL.md → details.md
 SKILL.md → reference.md
 ```
 
-### ❌ Vague Names
+### Avoid Vague Names
 
 ```
 # Bad
@@ -544,9 +544,7 @@ pdf-processing, commit-generator, data-analysis
 5. Test with fresh agent instance
 6. Iterate based on observations
 
-### Test with Multiple Models
-
-Different models need different levels of detail:
+## Model Guidance
 
 - **Fast models**: May need more guidance
 - **Powerful models**: Avoid over-explaining
@@ -586,11 +584,4 @@ Different models need different levels of detail:
 - [ ] Clear step-by-step instructions where needed
 - [ ] Error handling included
 - [ ] Workflows have checkpoints
-
-### Testing
-
-- [ ] Tested on representative tasks
-- [ ] Tested with fresh agent instance
-- [ ] Iterated based on observations
-- [ ] Works across intended platforms
 
